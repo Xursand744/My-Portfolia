@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif !important;
+    color: var(--color-body) !important;
+    background: var(--color-base2) !important;
+}
+
+
+:root {
+    --color-body: #b6cbce;
+    --color-heading: #eef3db;
+    --color-base: #033f47;
+    --color-base2: #022a30;
+    --color-brand: #e0f780;
+    --color-brand2: #deff58;
+    --sidbar-white: 240px;
+    --font-base: 'Bai Jamjuree';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-body);
+    transition: all 0.4s ease;
+}
+
+a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: var(--color-brand) !important;
+}
+
+img {
+    width: 100% !important;
+}
+
+
+
+.text-brand {
+    color: var(--color-brand);
+}
+
+.bg-base {
+    background-color: var(--color-base);
+}
+
+.shodow-affect {
+    transition: .5s;
+}
+
+.shodow-affect:hover {
+    box-shadow: -6px 6px 0 0px var(--color-brand);
+}
+
+.iconbox {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: var(--color-brand);
+    color: var(--color-base);
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: var(--color-base);
+}
+
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar .nav-link.active {
+    color: var(--color-brand);
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-brand);
+}
+
+/* CONTENT WRAPPER */
+#content-wrapper {
+    padding-left: 0;
+}
+
+
+/* BTN */
+
+.btn {
+    padding: 12px 28px;
+    font-weight: 700;
+}
+
+.btn-brend {
+    background-color: var(--color-brand) !important;
+    border-color: var(--color-brand) !important;
+    color: var(--color-base) !important;
+}
+
+.btn-brend:hover,
+.btn-brend:focus {
+    background-color: var(--color-brand2) !important;
+    color: var(--color-base) !important;
+    border-color: var(--color-brand2) !important;
+}
+
+.link-custom {
+    font-weight: 700;
+    position: relative;
+}
+
+.link-custom::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-brand);
+    transition: .5s;
+}
+
+.link-custom:hover::after {
+    width: 100%;
+}
+
+
+/*  CARD */
+
+.card-custom .card-custom-image {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+    transition: .5s;
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.1);
+}
+
+/* Contant */
+
+#Contact .form-cantrol {
+    width: 100% !important;
+    background-color: var(--color-base);
+    border-color: var(--color-base);
+    color: var(--color-body);
+}
+
+#Contact .form-cantrol:focus {
+    border-color: var(--color-brand);
+    box-shadow: none;
+}
+
+#Contact .form-cantrol::placeholder {
+    color: var(--color-body);
+}
+
+#Contact input .form-cantrol {
+    height: 44px;
+}
+
+.form-group input, textarea {
+    outline: unset;
+    border: unset;
+}
+
+/* SOCIAL ICONS */
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-base);
+    border-radius: 100px;
+    font-size: 24px;
+}
+
+.social-link a input {
+    border-radius: 12px;
+}

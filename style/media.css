@@ -1,0 +1,50 @@
+/* @media (max-width: 1440px){} */
+/* noutbuk */
+/* @media (max-width: 1366px){} */
+/* noutbuk */
+/* @media (max-width: 1320px){} */
+/* noutbuk */
+/* @media (max-width: 1290px){} */
+/* noutbuk */
+/* @media (max-width: 1140px){} */
+/* noutbuk */
+/* @media (max-width: 1024px) {} */
+/* iped */
+@media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidbar-white);
+        background: linear-gradient(rgba(14, 74, 82, 0.9), rgba(3, 63, 71, 0.9)), url(../images/sidebar-img.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #content-wrapper {
+        padding-left: var(--sidbar-white);
+    }
+
+    .navbar-brand img {
+        border: 8px solid var(--color-brand);
+    }
+}
+
+/* iped */
+/* @media (max-width: 768px){} */
+/* iped */
+/* @media (max-width: 736px){  */
+/* phone */
+/* @media (max-width: 684px){} */
+/* phone */
+/* @media (max-width: 667px){} */
+/* phone */
+/* @media (max-width: 576px){} */
+/* phone */
+/* @media (max-width: 414px){} */
+/* @media (max-width: 412px){} */
+/* phone */
+/* @media (max-width: 375px){} */
+/* phone */
+/* @media (max-width: 360px){} */
+/* phone */
+/* @media (max-width: 320px){} */
+/* phone */
