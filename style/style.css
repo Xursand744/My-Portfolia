@@ -74,6 +74,7 @@ img {
 
 .navbar {
     background-color: var(--color-base);
+    margin-bottom: 30px;
 }
 
 
